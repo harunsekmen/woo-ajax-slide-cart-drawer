@@ -1,10 +1,10 @@
 # 🚀 WooCommerce Ultra-Light AJAX Slide Cart Drawer
 
-[![WooCommerce HPOS Ready](https://img.shields.io/badge/Compatibility-Production%20Ready-7f54b3.svg)](#)
+[![WooCommerce HPOS Ready](https://img.shields.io/badge/WooCommerce-HPOS%20Ready-7f54b3.svg)](https://github.com/harunsekmen/woo-ajax-slide-cart-drawer)
 [![License: GPL-3.0](https://img.shields.io/badge/License-GPL%203.0-blue.svg)](LICENSE)
-[![Open Source](https://img.shields.io/badge/Open%20Source-Community%20Project-brightgreen.svg)](#)
+[![Open Source](https://img.shields.io/badge/Open%20Source-Production%20Grade-brightgreen.svg)](#)
 
-> 12 KB modular slide drawer with instant AJAX quantity updates, inline coupon inputs, and cross-sell recommendations.
+> A 12 KB modular slide cart drawer for WooCommerce. Eliminates disruptive page redirects, updates quantities via AJAX in real-time, and boosts Average Order Value (AOV) with a dynamic free-shipping progress meter.
 
 Developed and maintained by **[Harun Sekmen](https://github.com/harunsekmen)** — E-Commerce Systems Engineer & WooCommerce Specialist.
 
@@ -12,43 +12,38 @@ Developed and maintained by **[Harun Sekmen](https://github.com/harunsekmen)** �
 
 ---
 
-## ⚡ The Problem It Solves
+## 📸 Operational WordPress Admin Interface
 
-Redirecting shoppers to a separate cart page breaks shopping momentum and causes unnecessary friction.
+Configuration dashboard inside WordPress Admin (WooCommerce > Cart Drawer):
 
-Targeted specifically for **Modern e-commerce brands wanting frictionless cart interaction**.
+![AJAX Slide Cart Drawer Dashboard](docs/assets/admin-cart-drawer-dashboard.png)
 
-Common search inquiries addressed by this repository: `woocommerce ajax cart drawer free`, `slide out cart woocommerce no plugin`, `mini cart drawer woocommerce modern`.
+---
+
+## ⚡ The Measurable Outcome
+
+- **0ms Cart Redirects:** Shoppers stay immersed in the product catalog instead of being redirected to a separate cart page.
+- **AOV Incentive Meter:** Visual progress bar calculates subtotal deltas in real-time (e.g. *"Add $25.00 more for Free Shipping"*).
+- **Sub-12 KB Footprint:** Pure vanilla JavaScript and CSS; zero jQuery UI bloat or external framework drag.
+- **Live Cart Synchronization:** Connects to WooCommerce Store API fragments for zero-latency item count and subtotal updates.
 
 ---
 
 ## 🛠️ Key Architectural Features
 
-- **Production-Ready Architecture:** Built with clean standards (Vanilla JS, WooCommerce Store API, PHP 8.1+).
-- **Conversion-Optimized Experience:** Engineered to eliminate friction and elevate Average Order Value (AOV).
-- **Zero Heavy Page Builder Dependencies:** Direct native code without unnecessary plugin bloat.
-- **High-Performance Compatibility:** Tested for modern e-commerce standards and high-traffic reliability.
-
----
-
-## 💻 Tech Stack & Standards
-
-- **Platform:** WooCommerce
-- **Category:** Cart & AOV Boosters
-- **Technologies:** Vanilla JS, WooCommerce Store API, PHP 8.1+
+- **Hardware-Accelerated Slide:** Smooth CSS cubic-bezier transition (`translateX`) with background backdrop dimming.
+- **Inline Coupon Application:** Customers can apply coupon codes directly inside the drawer without leaving the page.
+- **Escape Key & Click-Outside Handlers:** Full keyboard accessibility and touch-optimized close interactions.
+- **HPOS Compatible:** Fully compatible with WooCommerce High-Performance Order Storage and modern block storefronts.
 
 ---
 
 ## 💼 Work With Harun Sekmen
 
-Need this architecture customized for your brand, or looking for turnkey e-commerce engineering?
-
 - **Custom Store Development:** Bespoke storefronts, high-converting checkout funnels, and catalog architecture.
-- **Shopify to WooCommerce Migration:** Full catalog, customer data, and order history transfers with zero commission fees.
-- **Performance & Speed Audits:** Eliminating bottlenecks, reducing cart latency, and optimizing Core Web Vitals.
-- **Custom Integrations:** Connecting payment gateways (Stripe, PayPal, iyzico, PayTR), ERPs, and shipping APIs.
+- **Cart & Conversion Engineering:** Custom slide cart drawers, free-shipping tier ladders, and bundle upsells.
 
-📩 **Inquiries:** Send your project brief or store URL to **[sekmenwp@gmail.com](mailto:sekmenwp@gmail.com)** or connect on **[LinkedIn](https://www.linkedin.com/in/harunsekmen/)**.
+📩 **Inquiries:** Send your project brief to **[sekmenwp@gmail.com](mailto:sekmenwp@gmail.com)** or connect on **[LinkedIn](https://www.linkedin.com/in/harunsekmen/)**.
 
 ---
 
