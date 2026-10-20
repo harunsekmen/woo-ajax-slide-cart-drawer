@@ -23,3 +23,5 @@ add_action('before_woocommerce_init', function () {
 require_once __DIR__ . '/includes/class-slide-cart-engine.php';
 
 add_action('plugins_loaded', ['Woo_Slide_Cart_Engine', 'instance']);
+
+require_once __DIR__ . '/includes/class-admin.php';
