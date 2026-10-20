@@ -1,5 +1,7 @@
 # 🚀 WooCommerce Ultra-Light AJAX Slide Cart Drawer
 
+[🇬🇧 English](README.md) · [🇹🇷 Türkçe](README.tr.md)
+
 [![WooCommerce HPOS Ready](https://img.shields.io/badge/WooCommerce-HPOS%20Ready-7f54b3.svg)](https://github.com/harunsekmen/woo-ajax-slide-cart-drawer)
 [![License: GPL-3.0](https://img.shields.io/badge/License-GPL%203.0-blue.svg)](LICENSE)
 [![Open Source](https://img.shields.io/badge/Open%20Source-Production%20Grade-brightgreen.svg)](#)
