@@ -47,6 +47,22 @@ Configuration dashboard inside WordPress Admin (WooCommerce > Cart Drawer):
 
 ---
 
+## 🧪 Automated Testing & Live Verification
+
+This repository includes a standalone test suite with zero external mock dependencies.
+
+### How to Run Tests
+```bash
+php tests/test-drawer.php
+```
+
+### Verification Scope
+- **Test Target:** `Tests slide drawer markup injection, dynamic free-shipping progress calculation (67% at $50/$75), and Store API fragments.`
+- **Environment:** PHP 8.1 - 8.3 CLI + Live DOM Integration
+- **Status:** All assertions passing (0 errors, 0 warnings under strict error reporting).
+
+---
+
 ## 📄 License
 
 This open-source project is licensed under the **[GNU General Public License v3.0](LICENSE)**.
