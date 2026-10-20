@@ -2,7 +2,7 @@
 /**
  * Plugin Name:       WooCommerce Ultra-Light AJAX Slide Cart Drawer
  * Plugin URI:        https://github.com/harunsekmen/woo-ajax-slide-cart-drawer
- * Description:       12 KB modular slide drawer with instant AJAX quantity updates, inline coupon inputs, and cross-sell recommendations.
+ * Description:       12 KB modular slide drawer with instant AJAX quantity updates, inline coupon inputs, and free-shipping progress meter.
  * Version:           1.0.0
  * Author:            Harun Sekmen
  * Author URI:        https://github.com/harunsekmen
@@ -20,21 +20,6 @@ add_action('before_woocommerce_init', function () {
     }
 });
 
-final class WooAjaxSlideCartDrawer {
-    const VERSION = '1.0.0';
-    private static ?self \$instance = null;
+require_once __DIR__ . '/includes/class-slide-cart-engine.php';
 
-    public static function instance(): self {
-        return self::\$instance ??= new self();
-    }
-
-    private function __construct() {
-        add_action('init', [\$this, 'init_engine']);
-    }
-
-    public function init_engine(): void {
-        // Core lifecycle hooks for woo-ajax-slide-cart-drawer
-    }
-}
-
-add_action('plugins_loaded', ['WooAjaxSlideCartDrawer', 'instance']);
+add_action('plugins_loaded', ['Woo_Slide_Cart_Engine', 'instance']);
